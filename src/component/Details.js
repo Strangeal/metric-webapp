@@ -23,6 +23,7 @@ const Details = () => {
         </div>
         <div>
           <p>
+            $
             {coin.low_24h}
           </p>
           <p>{coin.total_volume}</p>

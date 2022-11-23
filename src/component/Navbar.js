@@ -13,7 +13,7 @@ const Navbar = () => (
       </ul>
 
       <Link to="/" className="nav__brand">
-        <span>DaxPay</span>
+        <h5>DaxPay</h5>
       </Link>
     </nav>
   </header>
