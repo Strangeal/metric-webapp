@@ -9,10 +9,10 @@ describe('Navbar component testing', () => {
   test('Does the Navbar component match snapshot', () => {
     const home = render(
       <BrowserRouter>
-      <Provider store={store}>
-        <Navbar />
-      </Provider>
-      </BrowserRouter>
+        <Provider store={store}>
+          <Navbar />
+        </Provider>
+      </BrowserRouter>,
     );
     expect(home).toMatchSnapshot();
   });
@@ -20,11 +20,11 @@ describe('Navbar component testing', () => {
   test('navbar should have a heading of "DaxPay"', () => {
     render(
       <BrowserRouter>
-      <Provider store={store}>
-        <Navbar />
-      </Provider>
-      </BrowserRouter>
+        <Provider store={store}>
+          <Navbar />
+        </Provider>
+      </BrowserRouter>,
     );
-    expect(screen.getByRole('heading')).toHaveTextContent("DaxPay");
-  })
-})
+    expect(screen.getByRole('heading')).toHaveTextContent('DaxPay');
+  });
+});

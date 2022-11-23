@@ -9,11 +9,11 @@ describe('Home component testing', () => {
   test('Does the Home component match snapshot', () => {
     const home = render(
       <BrowserRouter>
-      <Provider store={store}>
-        <Home />
-      </Provider>
-      </BrowserRouter>
+        <Provider store={store}>
+          <Home />
+        </Provider>
+      </BrowserRouter>,
     );
     expect(home).toMatchSnapshot();
   });
-})
+});
