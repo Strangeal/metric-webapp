@@ -11,7 +11,6 @@ const Navbar = () => (
           </Link>
         </li>
       </ul>
-
       <Link to="/" className="nav__brand">
         <h5>DaxPay</h5>
       </Link>

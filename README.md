@@ -35,7 +35,15 @@
 
 ## Live Demo
 
-[**See Project 🚀**](coming soon)
+[**See Project 🚀**](https://daxpay.netlify.app)
+
+## Video Demonstration
+
+[** Watch 😄 **](Coming soon)
+
+## Screenshots 
+
+![Desktop Design](./metric-preview.png)
 
 ## Get Started
 
@@ -100,6 +108,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 For Design Inspiration I would like to Acknowledge
+<a href="https://www.behance.net/adagio07" rel="noopener" target="_blank"><strong>Cindy Shin</strong></a> ❤️
 
 ## 📝 License
 
