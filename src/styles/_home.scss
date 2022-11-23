@@ -1,3 +1,15 @@
+.not__found a {
+  color: rgb(196, 189, 189);
+  line-height: 3.5;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+
+  .icon {
+    font-size: 30px;
+  }
+}
+
 .navbar {
   background-color: rgba(47, 43, 96, 0.168);
   box-shadow: 1px 1px 5px -1px #2f2b60;
@@ -78,6 +90,26 @@ form {
     font-size: 14px;
     color: white;
   }
+}
+
+/* Not Found */
+.not__found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(68, 68, 68);
+  min-height: 80vh;
+}
+
+.not__found h2 {
+  font-size: 55px;
+  color: white;
+}
+
+.not__found p {
+  font-size: 20px;
+  color: white;
 }
 
 .coin__dec {

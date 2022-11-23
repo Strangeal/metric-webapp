@@ -39,7 +39,7 @@
 
 ## Video Demonstration
 
-[** Watch 😄 **](Coming soon)
+[** Watch 😄 **](https://www.loom.com/share/e55ac30557e442ef98913954f4761434)
 
 ## Screenshots 
 
