@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="./murple_logo.png" alt="logo" width="100"  height="auto" />
+  <br/>
+  <h3><b>Matric-Webapp</b></h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# Microverse Metric Project
 
-In the project directory, you can run:
+> Crypto Metrics is a web(mobile-focused) software for monitoring the Cryptocurrency exchange's listed firms and seeing their live metrics. It uses data from the Coingecko API.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">SCSS</a></li>
+    <li><a href="https://reactjs.org/">webpack</a></li>
+    <li><a href="https://reactjs.org/">JavaScript</a></li>
+    <li><a href="https://reactjs.org/">ReactJs</a></li>
+    <li><a href="https://reactjs.org/">Redux</a></li>
+  </ul>
+</details>
 
-### `npm test`
+<details>
+<summary>API</summary>
+  <ul>
+    <li><a href="https://www.coingecko.com/en/api">CoinGecko API</a></li>
+  </ul>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+[**See Project 🚀**](https://daxpay.netlify.app)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Video Demonstration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[** Watch 😄 **](https://www.loom.com/share/e55ac30557e442ef98913954f4761434)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots 
 
-### `npm run eject`
+![Desktop Design](./metric-preview.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Get Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get the content of this project locally you need to run the following commands in your terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone git@github.com:Strangeal/metric-webapp.git
+```
+3. To access cloned directory run:
+```bash
+cd metric-webapp
+```
+3. Open it with the live server
 
-## Learn More
+### Install
+> To install linters and other project's dependencies run:
+```bash
+npm install
+```
+## Run Test for Linters
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For tracking linter errors locally you need to follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
 
-### Code Splitting
+2. For tracking linter errors in CSS or SASS files run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
 
-### Analyzing the Bundle Size
+3. For tracking linter errors in JavaScript files run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npx eslint .
+```
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Justice Bajeri**
 
-### Advanced Configuration
+- GitHub: [Link to Github Profile](https://github.com/Strangeal)
+- Twitter: [Link to Twitter Profile](https://twitter.com/Str_angeal)
+- LinkedIn: [Link to LinkedIn Profile](https://www.linkedin.com/in/justice-bajeri-0b7211243/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Show your support
 
-### `npm run build` fails to minify
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+For Design Inspiration I would like to Acknowledge
+<a href="https://www.behance.net/adagio07" rel="noopener" target="_blank"><strong>Cindy Shin</strong></a> ❤️
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
